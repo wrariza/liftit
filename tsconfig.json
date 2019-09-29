@@ -9,6 +9,7 @@
     ],
     "module": "esnext",
     "moduleResolution": "node",
+    "declaration": false,
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
