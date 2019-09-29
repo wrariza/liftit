@@ -1,13 +1,15 @@
 import * as React from 'react'
 import Head from 'next/head'
+import { Header } from './search/Header'
+
 type LayoutProps = {
     title?: string
 }
 const layoutStyle = {
+    display: 'block',
     margin: 20,
     padding: 20,
     border: '1px solid #DDD',
-    backgroundColor: 'black',
     color: 'white'
 }
 const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
@@ -17,8 +19,9 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children, title }) => (
             <meta charSet="utf-8" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <header>
-        </header>
+       <Header
+            title={title}
+       ></Header>  
         {children}
     </div>
 )
