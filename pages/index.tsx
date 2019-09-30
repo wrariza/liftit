@@ -4,7 +4,7 @@ import { ListMaps } from '../components/maps/ListMaps'
 import MainMap from '../components/maps/MainMap'
 
 const Index: React.FunctionComponent = () => {
-    
+
     return (
         <Layout title="Lifit">
             <MainMap></MainMap>
