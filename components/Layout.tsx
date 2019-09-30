@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Head from 'next/head'
-import { Header } from './search/Header'
+import { Header } from './shared/Header'
 
 type LayoutProps = {
     title?: string

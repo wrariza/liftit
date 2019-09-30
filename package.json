@@ -18,5 +18,8 @@
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
     "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.8"
   }
 }
